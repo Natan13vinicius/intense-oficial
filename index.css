@@ -38,6 +38,9 @@ header {
     width: 100%;
     height: 90px;
     background-color: rgba(255, 255, 255, 0.9);
+    z-index: 999;
+    position: fixed;
+
 }
 
 /* header-box */
@@ -51,6 +54,9 @@ header {
     justify-content: space-between;
     max-height: 90px;
     position: relative;
+    position: fixed;
+    z-index: 999;
+
 }
 
 /* img-header-logo */
@@ -66,17 +72,20 @@ header {
     margin-right: 1.20em;
     margin-top: 10px;
 
+
 }
+
+.header-box a {}
 
 /* header-navbar */
 .header-navbar {
     background-color: rgb(53, 53, 53);
     display: none;
-    z-index: 999;
+    /* z-index: 999; */
     position: fixed;
     width: 100%;
     height: 100vh;
-
+    opacity: 0.9;
 
 
 
@@ -86,6 +95,11 @@ header {
 /* menunav */
 #menunav {
     /* display: none; */
+}
+
+/* .menu */
+.menu:hover {
+    cursor: pointer;
 }
 
 /* header-navbar ul */
@@ -171,10 +185,14 @@ header {
 /* carousel-bootstrap */
 /* carousel bootstrap */
 /* carousel bootstrap */
+
+/* container */
+
 .carousel-item {
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     background-size: cover;
+    margin-top: 6em;
 
 
 }
@@ -212,7 +230,7 @@ header {
     color: rgb(255, 255, 255);
     width: 100%;
     padding: 0 1.50em;
-    /* margin-top: 9em */
+
 }
 
 
@@ -236,16 +254,18 @@ header {
 
 /* carousel-first-p */
 .carousel-first-p {
-    border: 3px solid white;
+    border: 2px solid white;
+
     background-color: rgba(8, 8, 8, 0.9);
     /* opacity: 0.79; */
     display: flex;
     text-align: center;
     align-items: center;
-    margin-top: 13em;
+    margin-top: 9em;
     padding: 0.2em;
     min-width: 8em;
     justify-content: center;
+
 
 }
 
@@ -253,6 +273,7 @@ header {
 .carousel-first-p p {
     margin: 0;
     font-weight: lighter;
+
 
 
 }
@@ -267,7 +288,7 @@ header {
 /* carousel-p .last-p-color*/
 .carousel-p .last-p-color {
     color: wheat;
-    padding-top: 3em;
+    padding-top: 1.50em;
 }
 
 
@@ -289,6 +310,8 @@ header {
 
 
 }
+
+
 
 /* .product */
 .product-img {
@@ -329,7 +352,7 @@ header {
 
 /* .product-group */
 .product-group {
-    /* background-color: rebeccapurple; */
+
     display: flex;
     justify-content: space-between;
     justify-content: space-around;

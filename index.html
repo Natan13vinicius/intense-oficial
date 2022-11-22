@@ -13,6 +13,8 @@
 
     <!-- css -->
     <link rel="stylesheet" href="/index.css">
+    <!-- media -->
+    <link rel="stylesheet" href="/media.css">
     <!-- bootstrap -->
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -38,8 +40,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <!-- icon -->
     <link rel="stylesheet" href="/fontawesome/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
-
-
     <!-- font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lato:ital,wght@0,400;1,300&family=Playfair+Display&family=Poppins:ital,wght@1,600&display=swap"
@@ -55,20 +55,20 @@
             <!-- img header logo -->
             <img class="img-header-logo" src="/img/intense-logo.svg" alt="">
             <!-- menu-icon -->
-            <a href="#"><i class="fa-solid fa-bars" onclick="clickMenu()"></i></a>
+            <i class="fa-solid fa-bars menu" onclick="clickMenu()"></i>
         </div>
         <!-- navbar -->
         <nav class="header-navbar" id="menunav">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Brincos</a></li>
-                <li><a href="#">Colares</a></li>
-                <li><a href="#">Colecao Selvagem</a></li>
-                <li><a href="#">Colecao Primavera</a></li>
-                <li><a href="#">Colecao Perolas Raras</a></li>
-                <li><a href="#">Colecao Cash</a></li>
-                <li><a href="#">Pulseiras</a></li>
-                <li><a href="#">Colecao Glam</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#brincos">Brincos</a></li>
+                <li><a href="#colares">Colares</a></li>
+                <li><a href="#colecao-selvagem">Colecao Selvagem</a></li>
+                <li><a href="#colecao-primavera">Colecao Primavera</a></li>
+                <li><a href="#colecao-perolas-raras">Colecao Perolas Raras</a></li>
+                <li><a href="#colecao-cash">Colecao Cash</a></li>
+                <li><a href="#pulseiras">Pulseiras</a></li>
+                <li><a href="#colecao-glam">Colecao Glam</a></li>
             </ul>
 
         </nav>
@@ -78,7 +78,7 @@
         <!-- apresentacao -->
         <section class="main-principal">
             <!-- bootstrap carousel -->
-            <section class="home">
+            <section class="home" id="home">
                 <div id="carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-controls">
                         <ol class="carousel-indicators">
@@ -145,7 +145,7 @@
             </section>
         </section>
         <!-- product-main-box -->
-        <section class="Products-main-box">
+        <section class="Products-main-box" id="brincos">
             <!-- secao brincos -->
             <!-- secao brincos -->
             <!-- SECAO BRINCOS -->
@@ -158,142 +158,150 @@
 
             </div>
             <!-- product-group -->
-            <div class="product-group">
-                <!-- product 1 -->
-                <div class="product">
-                    <!-- alterar produto 1 -->
-                    <a href="/brincos/brinco.img.1.jpeg"><img src="/brincos/brinco.img.1.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>15
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+            <div class="img-box-4">
+                <div class="product-group">
+
+                    <!-- product 1 -->
+                    <div class="product brincos">
+                        <!-- alterar produto 1 -->
+                        <a href="/brincos/brinco.img.1.jpeg"><img src="/brincos/brinco.img.1.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>15
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 2 -->
+                    <div class="product">
+                        <!-- alterar produto 2 -->
+                        <a href="/brincos/brinco.img.2.jpeg"><img src="/brincos/brinco.img.2.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
-                <!-- product 2 -->
-                <div class="product">
-                    <!-- alterar produto 2 -->
-                    <a href="/brincos/brinco.img.2.jpeg"><img src="/brincos/brinco.img.2.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-            </div>
-            <div class="product-group">
-                <!-- product 3 -->
-                <div class="product">
-                    <!-- alterar produto 3 -->
-                    <a href="/brincos/brinco.img.3.jpeg"><img src="/brincos/brinco.img.3.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>50
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 4 -->
-                <div class="product">
-                    <!-- alterar produto 4 -->
-                    <a href="/brincos/brinco.img.4.jpeg"><img src="/brincos/brinco.img.4.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                <div class="product-group">
+                    <!-- product 3 -->
+                    <div class="product">
+                        <!-- alterar produto 3 -->
+                        <a href="/brincos/brinco.img.3.jpeg"><img src="/brincos/brinco.img.3.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>50
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+
+                    <!-- product 4 -->
+                    <div class="product">
+                        <!-- alterar produto 4 -->
+                        <a href="/brincos/brinco.img.4.jpeg"><img src="/brincos/brinco.img.4.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
             </div>
             <!-- product-group -->
-            <div class="product-group">
-                <!-- product 5 -->
-                <div class="product">
-                    <!-- alterar produto 5 -->
-                    <a href="/brincos/brinco.img.5.jpeg"><img src="/brincos/brinco.img.5.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+            <div class="img-box-4">
+                <div class="product-group">
+                    <!-- product 5 -->
+                    <div class="product">
+                        <!-- alterar produto 5 -->
+                        <a href="/brincos/brinco.img.5.jpeg"><img src="/brincos/brinco.img.5.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 6 -->
+                    <div class="product">
+                        <!-- alterar produto 6 -->
+                        <a href="/brincos/brinco.img.7.jpeg"><img src="/brincos/brinco.img.7.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>15
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
-                <!-- product 6 -->
-                <div class="product">
-                    <!-- alterar produto 6 -->
-                    <a href="/brincos/brinco.img.7.jpeg"><img src="/brincos/brinco.img.7.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>15
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-            </div>
-            <div class="product-group">
-                <!-- product 7 -->
-                <div class="product">
-                    <!-- alterar produto 7 -->
-                    <a href="/brincos/brinco.img.8.jpeg"><img src="/brincos/brinco.img.8.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>15
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 8 -->
-                <div class="product">
-                    <!-- alterar produto 8 -->
-                    <a href="/brincos/brinco.img.9.jpeg"><img src="/brincos/brinco.img.9.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>25
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-            </div>
-
-            <!-- product-group -->
-            <div class="product-group">
-                <!-- product 9 -->
-                <div class="product">
-                    <!-- alterar produto 9 -->
-                    <a href="/brincos/brinco.img.15.jpeg"><img src="/brincos/brinco.img.15.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 10 -->
-                <div class="product">
-                    <!-- alterar produto 10 -->
-                    <a href="/brincos/brinco.img.13.jpeg"><img src="/brincos/brinco.img.13.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>50
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                <div class="product-group">
+                    <!-- product 7 -->
+                    <div class="product">
+                        <!-- alterar produto 7 -->
+                        <a href="/brincos/brinco.img.8.jpeg"><img src="/brincos/brinco.img.8.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>15
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 8 -->
+                    <div class="product">
+                        <!-- alterar produto 8 -->
+                        <a href="/brincos/brinco.img.9.jpeg"><img src="/brincos/brinco.img.9.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>25
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
             </div>
 
-
-            <!-- product-group -->
-            <div class="product-group">
-                <!-- product 11 -->
-                <div class="product">
-                    <!-- alterar produto 11 -->
-                    <a href="/brincos/brinco.img.14.jpeg"><img src="/brincos/brinco.img.14.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+            <div class="img-box-4">
+                <!-- product-group -->
+                <div class="product-group">
+                    <!-- product 9 -->
+                    <div class="product">
+                        <!-- alterar produto 9 -->
+                        <a href="/brincos/brinco.img.15.jpeg"><img src="/brincos/brinco.img.15.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 10 -->
+                    <div class="product">
+                        <!-- alterar produto 10 -->
+                        <a href="/brincos/brinco.img.13.jpeg"><img src="/brincos/brinco.img.13.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>50
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
-                <!-- product 12 -->
-                <div class="product produto">
-                    <!-- alterar produto 12 -->
-                    <a href="/brincos/brinco.img.10.jpeg"><img src="/brincos/brinco.img.10.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>35
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+
+
+                <!-- product-group -->
+                <div class="product-group">
+                    <!-- product 11 -->
+                    <div class="product">
+                        <!-- alterar produto 11 -->
+                        <a href="/brincos/brinco.img.14.jpeg"><img src="/brincos/brinco.img.14.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 12 -->
+                    <div class="product produto">
+                        <!-- alterar produto 12 -->
+                        <a href="/brincos/brinco.img.10.jpeg"><img src="/brincos/brinco.img.10.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>35
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
             </div>
 
@@ -306,7 +314,7 @@
             <!-- secao colares -->
             <!-- secao colares -->
 
-            <div class="section-logo" id="section-logo-colar">
+            <div class="section-logo section-logo-colar" id="colares">
                 <p>Colares</p>
             </div>
             <!-- product 13 -->
@@ -341,50 +349,52 @@
             <div class="section-logo" id="section-logo-colar">
                 <p>Colecao Selvagem</p>
             </div>
-            <!-- product 15 -->
-            <div class="product-group">
-                <div class="product">
-                    <!-- alterar produto 15 -->
-                    <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.1.jpeg"><img
-                            src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.1.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>25
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 16 -->
+            <div class="img-box-4">
+                <!-- product 15 -->
+                <div class="product-group">
+                    <div class="product">
+                        <!-- alterar produto 15 -->
+                        <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.1.jpeg"><img
+                                src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.1.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>25
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 16 -->
 
-                <div class="product">
-                    <!-- alterar produto 16 -->
-                    <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.2.jpeg"><img
-                            src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.2.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>20 &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    <div class="product">
+                        <!-- alterar produto 16 -->
+                        <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.2.jpeg"><img
+                                src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.2.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>20 &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
-            </div>
-            <div class="product-group">
-                <!-- product 17 -->
-                <div class="product">
-                    <!-- alterar produto 17 -->
-                    <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.3.jpeg"><img
-                            src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.3.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>20 &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 18 -->
-                <div class="product">
-                    <!-- alterar produto 18 -->
-                    <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.4.jpeg"><img
-                            src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.4.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN
-                        4</span>
-                    <span>25&#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                <div class="product-group">
+                    <!-- product 17 -->
+                    <div class="product">
+                        <!-- alterar produto 17 -->
+                        <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.3.jpeg"><img
+                                src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.3.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>20 &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 18 -->
+                    <div class="product">
+                        <!-- alterar produto 18 -->
+                        <a href="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.4.jpeg"><img
+                                src="/colecao-selvagem/colares.colecao.selvagem/colar.colecao.selvagem.4.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN
+                            4</span>
+                        <span>25&#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
             </div>
 
@@ -428,49 +438,52 @@
                 <p>Colecao Perolas Raras</p>
             </div>
             <!-- product 21 -->
-            <div class="product-group">
-                <div class="product">
-                    <!-- alterar produto 21 -->
-                    <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.1.jpeg">
-                        <img src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.1.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+            <div class="img-box-4">
+                <div class="product-group">
+                    <div class="product">
+                        <!-- alterar produto 21 -->
+                        <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.1.jpeg">
+                            <img src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.1.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 22 -->
+                    <div class="product">
+                        <!-- alterar produto 22 -->
+                        <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.2.jpeg">
+                            <img src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.2.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
+                        <span>30
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
-                <!-- product 22 -->
-                <div class="product">
-                    <!-- alterar produto 22 -->
-                    <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.2.jpeg">
-                        <img src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.2.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
-                    <span>30
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                <div class="product-group">
+                    <!-- product 23 -->
+                    <div class="product">
+                        <!-- alterar produto 23 -->
+                        <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"><img
+                                src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
+                        <span>25
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
+                    <!-- product 24 -->
+                    <div class="product">
+                        <!-- alterar produto 24 -->
+                        <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"><img
+                                src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"
+                                class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
+                        <span>25
+                            &#36;</span>
+                        <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="product-group">
-                <!-- product 23 -->
-                <div class="product">
-                    <!-- alterar produto 23 -->
-                    <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"><img
-                            src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
-                    <span>25
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-                <!-- product 24 -->
-                <div class="product">
-                    <!-- alterar produto 24 -->
-                    <a href="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"><img
-                            src="/colecao-perolas-raras/brincos.colecao.perolas.raras/brincos.perolas.raras.3.jpeg"
-                            class="product-img"></a><span class="product-desc">AIR JORDAN 4</span>
-                    <span>25
-                        &#36;</span>
-                    <button><a href="#"><i class="fa-brands fa-whatsapp"></i>Comprar</a></button>
-                </div>
-            </div>
+
 
             <!-- colecao cash -->
             <!-- colecao cash -->
@@ -538,6 +551,7 @@
             <div class="section-logo" id="section-logo-colar">
                 <p>Colecao Glam</p>
             </div>
+
             <!-- product 28 -->
             <div class="product-group">
                 <div class="product">
@@ -596,6 +610,7 @@
     <!-- script -->
     <script>
         function clickMenu() {
+            var menunav = document.getElementById("menunav")
             if (menunav.style.display == 'block') {
                 menunav.style.display = 'none'
             } else {
