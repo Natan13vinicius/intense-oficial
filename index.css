@@ -85,7 +85,7 @@ header {
     position: fixed;
     width: 100%;
     height: 100vh;
-    opacity: 0.9;
+    opacity: 0.98;
 
 
 
@@ -110,6 +110,7 @@ header {
     align-items: center;
     list-style: none;
     padding: 1em;
+    margin-top: 4em;
     z-index: 999;
     width: 98%;
     margin-left: auto;
@@ -122,6 +123,7 @@ header {
 /* header-navbar ul li */
 .header-navbar ul li {
     margin: 1em;
+
 
 
 }
