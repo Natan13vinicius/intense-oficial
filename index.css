@@ -23,6 +23,9 @@ body {
 
 html {
     max-width: 100%;
+    /* scroll behavior */
+    /* rolagem auto */
+    scroll-behavior: smooth;
 }
 
 /* tags */
@@ -75,7 +78,7 @@ header {
 
 }
 
-.header-box a {}
+
 
 /* header-navbar */
 .header-navbar {
@@ -89,6 +92,15 @@ header {
 
 
 
+
+}
+
+/* header-nav-bar a */
+.header-navbar a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+    text-shadow: 5px 1px 20px RGB(246, 84, 177);
+    color: RGB(255, 151, 800);
 
 }
 
@@ -155,7 +167,7 @@ header {
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid wheat;
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     /* margin-top: 1em; */
@@ -164,7 +176,7 @@ header {
     display: flex;
     box-sizing: border-box;
     /* opacity: 0.9; */
-    border-radius: 15px;
+    border-radius: 30px 4px;
 }
 
 
@@ -257,7 +269,7 @@ header {
 
 /* carousel-first-p */
 .carousel-first-p {
-    border: 2px solid white;
+    border: 1px solid white;
 
     background-color: rgba(8, 8, 8, 0.9);
     /* opacity: 0.79; */
@@ -265,9 +277,10 @@ header {
     text-align: center;
     align-items: center;
     margin-top: 9em;
-    padding: 0.2em;
+    padding: 0.5em;
     min-width: 8em;
     justify-content: center;
+    /* border-radius: 30px 4px; */
 
 
 }
@@ -313,6 +326,7 @@ header {
 
 
 }
+
 
 
 
@@ -389,6 +403,13 @@ header {
     margin-top: 1em;
     margin-bottom: 1em;
 
+}
+
+/* .product button a hover */
+.product button a:hover {
+    transition-duration: 1s;
+    text-decoration: none;
+    color: rgb(78, 75, 75);
 }
 
 /* footer-box */

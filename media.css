@@ -19,6 +19,11 @@
 
     }
 
+    .section-logo {
+        width: 90%;
+        border-radius: 30px 4px;
+    }
+
 }
 
 
