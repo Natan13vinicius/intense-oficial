@@ -323,6 +323,7 @@ header {
     align-items: center;
     border-bottom: 1px solid white;
     color: rgb(85, 84, 84);
+    max-width: 50%;
 
 
 }
@@ -389,6 +390,39 @@ header {
 /* product i */
 .product i {
     margin-right: .20em;
+}
+
+/* product-text */
+.product-text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    text-align: center;
+    line-height: 1.5em;
+
+
+}
+
+
+
+.product-text p {
+    /* display: inline-block; */
+
+    text-align: justify;
+
+
+
+}
+
+/* product-text-material */
+.product-text-material {
+    text-shadow: 5px 1px 20px RGB(246, 84, 177);
+    color: RGB(246, 84, 177);
+
 }
 
 /* product button */
