@@ -177,6 +177,7 @@ header {
     box-sizing: border-box;
     /* opacity: 0.9; */
     border-radius: 30px 4px;
+    text-align: center;
 }
 
 
@@ -184,6 +185,7 @@ header {
 /* section-logo-p */
 .section-logo p {
     margin-bottom: 1em;
+
 }
 
 /* main-box */
@@ -304,7 +306,16 @@ header {
 /* carousel-p .last-p-color*/
 .carousel-p .last-p-color {
     color: wheat;
-    padding-top: 1.50em;
+    padding-top: 1.90em;
+
+}
+
+/* last-p-color */
+.last-p-color {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
 }
 
 
@@ -324,6 +335,7 @@ header {
     border-bottom: 1px solid white;
     color: rgb(85, 84, 84);
     max-width: 50%;
+
 
 
 }
@@ -374,6 +386,7 @@ header {
     display: flex;
     justify-content: space-between;
     justify-content: space-around;
+
 
 
 }
