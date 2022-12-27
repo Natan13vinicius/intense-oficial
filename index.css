@@ -204,6 +204,10 @@ header {
 /* carousel bootstrap */
 
 /* container */
+.container {
+    /* background-color: red; */
+    position: relative;
+}
 
 .carousel-item {
     height: 85vh;
@@ -247,6 +251,8 @@ header {
     color: rgb(255, 255, 255);
     width: 100%;
     padding: 0 1.50em;
+    height: 80vh;
+    /* background-color: red; */
 
 }
 
@@ -289,7 +295,7 @@ header {
     min-width: 8em;
     justify-content: center;
     /* border-radius: 30px 4px; */
-
+    position: relative;
 
 
 }
@@ -303,6 +309,9 @@ header {
 
 }
 
+.carousel-first-p img {
+    margin-bottom: -3em;
+}
 
 .carousel-p button a {
     color: white;
@@ -313,7 +322,7 @@ header {
 /* carousel-p .last-p-color*/
 .carousel-p .last-p-color {
     color: wheat;
-    padding-top: 1.90em;
+
 
 }
 
