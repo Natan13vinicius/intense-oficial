@@ -36,6 +36,10 @@ a {
 
 }
 
+p {
+    visibility: hidden;
+}
+
 /* header */
 header {
     width: 100%;
