@@ -47,6 +47,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <!-- scroll-reveal-efeito-js-biblioteca -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Intense</title>
 
 </head>
@@ -61,7 +63,7 @@
             <i class="fa-solid fa-bars menu" onclick="clickMenu()"></i>
         </div>
         <!-- navbar -->
-        <nav class="header-navbar" id="menunav">
+        <nav class="header-navbar" id="menunav" onclick="clickMenu()">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#brincos">Brincos</a></li>
@@ -777,6 +779,9 @@
 
         // carousel
         src = "js/bootstrap.bundle.min.js"
+
+        // scroll-reveal
+        ScrollReveal().reveal('button,img', { duration: 3000 });
 
     </script>
 </body>
